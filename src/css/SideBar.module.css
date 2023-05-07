@@ -1,0 +1,27 @@
+.sideBarCont{
+  position: relative;
+  width: 435px;
+  height: 100vh;
+  background-color: rgb(32, 32, 37);
+  top: 0px;
+  left: 0px;
+  padding: 8px;
+}
+
+.newChatButton{
+  width: 100%;
+  background-color: transparent;
+  color: rgb(226, 226, 226);
+  text-align: left;
+  border: solid;
+  border-radius: 5px;
+  border-color: rgba(255, 255, 255, 0.185);
+  border-width: 1px;
+  padding: 15px;
+  transition-duration: .2s;
+}
+
+.newChatButton:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.082);
+}
