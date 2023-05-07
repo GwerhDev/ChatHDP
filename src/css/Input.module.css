@@ -1,5 +1,7 @@
 .inputCont{
   position: relative;
+  width: 90%;
+  max-width: 750px;
   bottom: 50px;
   background-color: rgb(62, 65, 82);
   border-radius: 5px;
@@ -8,6 +10,12 @@
   display: flex;
   justify-content: space-between;
   vertical-align: middle;
+}
+
+.formCont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .inputCont input{

@@ -7,9 +7,11 @@ export default function Input() {
   };
 
   return (
+    <div className={s.formCont}>
       <form className={s.inputCont} onSubmit={onSubmit}>
         <input className={s.inputSpace} placeholder="Envía un mensage." type="text" />
         <button className={s.submitButton}>{'>>'}</button>
       </form>
+    </div>
   );
 }
