@@ -1,0 +1,10 @@
+.chatCont{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding: 100px 24px;
+  padding-right: 170px;
+  padding-left: 170px;
+}
+
