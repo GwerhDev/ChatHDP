@@ -9,6 +9,6 @@ body{
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  color: rgb(226, 226, 226);
+  color: var(--gray-50);
   font-family: Arial, Helvetica, sans-serif;
 }

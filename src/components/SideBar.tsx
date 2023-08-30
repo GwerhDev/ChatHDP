@@ -1,9 +1,14 @@
+import { CloseSideBar } from './Buttons/CloseSideBar';
+import { NewChat } from './Buttons/NewChat';
 import s from './SideBar.module.css'
 
 export default function SideBar() {
   return (
-    <div className={s.sideBarCont}>
-      <button className={s.newChatButton}>+ New chat</button>
-    </div>
+    <main className={s.sideBarCont}>
+      <div className={s.newChatButtonContainer}>
+        <NewChat/>
+        <CloseSideBar/>
+      </div>
+    </main>
   );
 }
