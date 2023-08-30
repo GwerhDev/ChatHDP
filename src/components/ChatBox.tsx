@@ -1,4 +1,4 @@
-import s from '../css/ChatBox.module.css'
+import s from './ChatBox.module.css'
 
 export default function ChatBox() {
   return (

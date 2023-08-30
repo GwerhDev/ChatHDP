@@ -1,4 +1,4 @@
-import s from "../css/Input.module.css"
+import s from "./Input.module.css"
 
 export default function Input() {
   const onSubmit = (e: any) => {

@@ -1,7 +1,8 @@
-import SideBar from "@/components/SideBar";
+import '../styles/root.css';
+import '../styles/globals.css';
+
 import Chat from "../components/Chat";
-import '../../styles/globals.css'
-import Input from "@/components/Input";
+import SideBar from "../components/SideBar";
 
 export default function App() {
   return (
