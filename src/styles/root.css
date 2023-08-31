@@ -10,6 +10,7 @@
   --gray-800: #343541;
   --gray-900: #202123;
   --gray-950: #050509;
+  --chat-gpt-color: rgb(25, 195, 125);
 }
 
 *, :after, :before {

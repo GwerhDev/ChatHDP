@@ -3,9 +3,6 @@
   width: 100%;
   text-align: center;
   overflow: hidden;
-  padding-top: 100px;
-  padding-right: 10px;
-  padding-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
