@@ -1,0 +1,21 @@
+.closeSideBar {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: var(--gray-50);
+  text-align: left;
+  border: solid;
+  border-radius: 5px;
+  border-color: rgba(255, 255, 255, 0.185);
+  border-width: 1px;
+  transition-duration: .2s;
+  margin-left: .5rem;
+}
+
+.closeSideBar:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.082);
+}

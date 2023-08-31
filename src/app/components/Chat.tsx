@@ -1,4 +1,4 @@
-import s from '../css/Chat.module.css'
+import s from './Chat.module.css'
 import ChatBox from './ChatBox';
 import Input from './Input';
 

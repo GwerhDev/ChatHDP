@@ -1,0 +1,16 @@
+.sideBarCont {
+  position: relative;
+  width: 296px;
+  height: 100vh;
+  background-color: var(--gray-900);
+  top: 0px;
+  left: 0px;
+  padding: 8px;
+}
+
+.newChatButtonContainer {
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
